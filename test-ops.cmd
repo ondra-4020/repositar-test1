@@ -9,7 +9,7 @@ set /a scitani=%prvni% + %druhe%
 echo %scitani%
 goto start)
 
-if %vysledek%==%% (
+if %vysledek%==%nasobeni% (
 set /a nasobeni=%prvni% * %druhe%
 echo %nasobeni%
 goto start)
